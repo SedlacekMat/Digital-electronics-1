@@ -46,7 +46,7 @@ end architecture dataflow;
 | 1 | 1 | 0 | 0 |
 | 1 | 1 | 1 | 0 |
 
-(https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+(https://github.com/SedlacekMat/Digital-electronics-1/blob/main/Labs/01-gates/DeMorganScreen.png "De Morgan's law waveforms")
 
 https://www.edaplayground.com/x/Ld__
 
