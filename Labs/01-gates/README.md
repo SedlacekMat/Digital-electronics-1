@@ -1,6 +1,6 @@
 # Lab assignment 01-gates
 
-## !. Repository link:
+## 1. Repository link:
 
 Link to Digital-electronics-1 repository: (https://github.com/SedlacekMat/Digital-electronics-1.git)
 
