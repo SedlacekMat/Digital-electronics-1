@@ -2,11 +2,11 @@
 
 ## 1. Repository link:
 
-Link to Digital-electronics-1 repository: [I'm an inline-style link with title](https://github.com/SedlacekMat/Digital-electronics-1.git "SedlacekMat/Digital-electronics-1")
+Link to Digital-electronics-1 repository: [SedlacekMat/Digital-electronics-1](https://github.com/SedlacekMat/Digital-electronics-1.git)
 
 ## 2. De Morgan's law:
 
-Link to EDA playground: (https://www.edaplayground.com/x/QQSh#)
+Link to EDA playground: [EDA De Morgan's law](https://www.edaplayground.com/x/QQSh#)
 
 ```vhdl
 library ieee;               -- Standard library
@@ -54,7 +54,7 @@ end architecture dataflow;
 
 ## 3. Distribution laws
 
-Link to EDA playground: (https://www.edaplayground.com/x/Ld__)
+Link to EDA playground: [EDA Distribution laws](https://www.edaplayground.com/x/Ld__)
 
 ```vhdl
 library ieee;               -- Standard library
