@@ -1,9 +1,12 @@
 # Lab assignment 01-gates
 
+## !. Repository link:
 
-(https://github.com/SedlacekMat/Digital-electronics-1.git)
+Link to Digital-electronics-1 repository: (https://github.com/SedlacekMat/Digital-electronics-1.git)
 
-(https://www.edaplayground.com/x/QQSh#)
+## 2. De Morgan's law:
+
+Link to EDA playground: (https://www.edaplayground.com/x/QQSh#)
 
 ```vhdl
 library ieee;               -- Standard library
@@ -48,8 +51,12 @@ end architecture dataflow;
 
 ![alt text](https://github.com/SedlacekMat/Digital-electronics-1/blob/main/Labs/01-gates/DeMorganScreen.png)
 
-https://www.edaplayground.com/x/Ld__
 
+## 3. Distribution laws
+
+Link to EDA playground: (https://www.edaplayground.com/x/Ld__)
+
+```vhdl
 library ieee;               -- Standard library
 use ieee.std_logic_1164.all;-- Package for data types and logic operations
 
@@ -79,3 +86,5 @@ begin
     d2r_o <= x_i or (y_i and z_i);
 
 end architecture dataflow;
+```
+![alt text](https://github.com/SedlacekMat/Digital-electronics-1/blob/main/Labs/01-gates/DistributionScreen.png)
