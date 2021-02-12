@@ -87,4 +87,4 @@ begin
 
 end architecture dataflow;
 ```
-![alt text](https://github.com/SedlacekMat/Digital-electronics-1/blob/main/Labs/01-gates/DistributionScreen.png)
+![alt text](https://github.com/SedlacekMat/Digital-electronics-1/blob/main/Labs/01-gates/DistributiveScreen.png)
