@@ -1,6 +1,11 @@
-https://www.edaplayground.com/x/QQSh#
+# Lab assignment 01-gates
 
 
+(https://github.com/SedlacekMat/Digital-electronics-1.git)
+
+(https://www.edaplayground.com/x/QQSh#)
+
+```vhdl
 library ieee;               -- Standard library
 use ieee.std_logic_1164.all;-- Package for data types and logic operations
 
@@ -28,7 +33,7 @@ begin
     fnor_o  <= (((b_i) nor (a_i nor a_i)) nor ((c_i) nor (b_i)))nor(((b_i) nor (a_i nor a_i)) nor ((c_i) nor (b_i)));
 
 end architecture dataflow;
-
+```
 
 | **c** | **b** |**a** | **f(c,b,a)** |
 | :-: | :-: | :-: | :-: |
