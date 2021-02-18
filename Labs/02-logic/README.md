@@ -21,6 +21,9 @@
 | 14 | 1 1 | 1 0 | 1 | 0 | 0 |
 | 15 | 1 1 | 1 1 | 0 | 1 | 0 |
 
+
 ![SoP](Images/SoP.png)
+
+
 ![PoS](Images/PoS.png)
 
