@@ -29,3 +29,7 @@
 
 ## Logic function minimization
 
+![KmapEqual](Images/kmapEqual.png)
+![KmapGreater](Images/kmapGreater.png)
+![KmapLesser](Images/kmapLesser.png)
+
