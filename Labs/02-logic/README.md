@@ -21,5 +21,22 @@
 | 14 | 1 1 | 1 0 | 1 | 0 | 0 |
 | 15 | 1 1 | 1 1 | 0 | 1 | 0 |
 
+
 ![SoP](Images/SoP.png)
+
+
+![PoS](Images/PoS.png)
+
+## Logic function minimization
+### Karnaugh Maps:
+#### Equal: 
+![KmapEqual](Images/kmapEqual.png)
+#### Greater:
+![KmapGreater](Images/kmapGreater.png)
+#### Less:
+![KmapLesser](Images/kmapLesser.png)
+
+![GreaterSoPmin](Images/GreaterSoPMin.png)
+
+![LessPoSmin](Images/LessPoSMin.png)
 
