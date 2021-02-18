@@ -1,5 +1,5 @@
 # Assigment 02-logic
-
+Link to repository: https://github.com/SedlacekMat/Digital-electronics-1
 ## Preparation:
 ### Truth table:
 
