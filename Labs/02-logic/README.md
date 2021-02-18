@@ -22,5 +22,7 @@
 | 15 | 1 1 | 1 1 | 0 | 1 | 0 |
 
 ```LaTeX
+\begin{align*}
 equals_{SoP}^{canon.}=(\overline{B_{1}}\cdot\overline{B_{0}}\cdot\overline{A_{1}}\cdot\overline{A_{0}})+(\overline{B_{1}}\cdot B_{0}\cdot\overline{A_{1}}\cdot A_{0})+(B_{1}\cdot\overline{B_{0}}\cdot {A_{1}}\cdot\overline{A_{0}})+(B_{1}\cdot B_{0}\cdot {A_{1}}\cdot A_{0})
+\end{align*}
 ```
