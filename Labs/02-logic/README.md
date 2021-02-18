@@ -27,3 +27,5 @@
 
 ![PoS](Images/PoS.png)
 
+## Logic function minimization
+
