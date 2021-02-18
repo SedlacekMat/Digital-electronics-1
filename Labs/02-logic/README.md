@@ -148,17 +148,17 @@ end architecture Behavioral;
 
 ### Console output:
 
-[2021-02-18 17:38:05 EST] ghdl -i design.vhd testbench.vhd  && ghdl -m  tb_comparator_4bit && ghdl -r  tb_comparator_4bit   --vcd=dump.vcd && sed -i 's/^U/X/g; s/^-/X/g; s/^H/1/g; s/^L/0/g' dump.vcd 
-analyze design.vhd
-analyze testbench.vhd
-elaborate tb_comparator_4bit
-testbench.vhd:41:9:@0ms:(report note): Stimulus process started
-testbench.vhd:107:9:@1100ns:(assertion error): Test failed for input combination: 1001, 1110
-testbench.vhd:110:8:@1100ns:(report note): Stimulus process finished
-Finding VCD file...
-./dump.vcd
-[2021-02-18 17:38:06 EST] Opening EPWave...
-Done
+[2021-02-18 17:38:05 EST] ghdl -i design.vhd testbench.vhd  && ghdl -m  tb_comparator_4bit && ghdl -r  tb_comparator_4bit   --vcd=dump.vcd && sed -i 's/^U/X/g; s/^-/X/g;   s/^H/1/g; s/^L/0/g' dump.vcd   
+analyze design.vhd  
+analyze testbench.vhd  
+elaborate tb_comparator_4bit  
+testbench.vhd:41:9:@0ms:(report note): Stimulus process started  
+testbench.vhd:107:9:@1100ns:(assertion error): Test failed for input combination: 1001, 1110  
+testbench.vhd:110:8:@1100ns:(report note): Stimulus process finished  
+Finding VCD file...  
+./dump.vcd  
+[2021-02-18 17:38:06 EST] Opening EPWave...  
+Done  
 
 ### 4-bit binary comparator in VHDL:
 Link: https://www.edaplayground.com/x/sYUH
