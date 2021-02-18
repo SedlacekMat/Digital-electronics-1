@@ -36,3 +36,7 @@
 #### Less:
 ![KmapLesser](Images/kmapLesser.png)
 
+![GreaterSoPmin](Images/GreaterSoPMin.png)
+
+![LessPoSmin](Images/LessPoSMin.png)
+
