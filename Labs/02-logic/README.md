@@ -29,7 +29,10 @@
 
 ## Logic function minimization
 ### Karnaugh Maps:
-Equal: ![KmapEqual](Images/kmapEqual.png)
+#### Equal: 
+![KmapEqual](Images/kmapEqual.png)
+#### Greater:
 ![KmapGreater](Images/kmapGreater.png)
+#### Lesser:
 ![KmapLesser](Images/kmapLesser.png)
 
