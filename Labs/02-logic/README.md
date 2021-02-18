@@ -33,6 +33,6 @@
 ![KmapEqual](Images/kmapEqual.png)
 #### Greater:
 ![KmapGreater](Images/kmapGreater.png)
-#### Lesser:
+#### Less:
 ![KmapLesser](Images/kmapLesser.png)
 
