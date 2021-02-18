@@ -40,3 +40,6 @@
 
 ![LessPoSmin](Images/LessPoSMin.png)
 
+## 2-bit binary comparator in VHDL:
+Link:https://www.edaplayground.com/x/ZDUV
+
