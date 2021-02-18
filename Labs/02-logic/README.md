@@ -23,6 +23,7 @@
 | 15 | 1 1 | 1 1 | 0 | 1 | 0 |
 
 ### SoP and PoS functions:
+
 ![SoP](Images/SoP.png)
 
 
