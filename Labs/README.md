@@ -1,5 +1,5 @@
 # Assigment 02-logic
-Link to repository: https://github.com/SedlacekMat/Digital-electronics-1
+
 ## Preparation:
 ### Truth table:
 
@@ -23,7 +23,6 @@ Link to repository: https://github.com/SedlacekMat/Digital-electronics-1
 | 15 | 1 1 | 1 1 | 0 | 1 | 0 |
 
 ### SoP and PoS functions:
-
 ![SoP](Images/SoP.png)
 
 
