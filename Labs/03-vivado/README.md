@@ -76,3 +76,12 @@ end architecture Behavioral;
   ```
 ### Waveform screenshot:
 ![Screenshot](Images/03Waveforms.png)
+
+## Vivado tutorial
+### Create project:
+
+### Add source files:
+
+### Add a testbench file:
+
+### Run simulation:
