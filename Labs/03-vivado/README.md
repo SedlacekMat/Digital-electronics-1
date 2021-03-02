@@ -73,4 +73,6 @@ end architecture Behavioral;
         report "Stimulus process finished" severity note;
         wait;
     end process p_stimulus;
-    ```
+  ```
+### Waveform screenshot:
+![Screenshot](Images/03Waveforms.png)
