@@ -79,9 +79,15 @@ end architecture Behavioral;
 
 ## Vivado tutorial
 ### Create project:
+![Create](Images/03TutorialCreate.png)
+![Create2](Images/03TutorialCreate2.png)
+![Create3](Images/03TutorialAddSource.png)
+![Create4](Images/03TutorialCreate3.png)
 
-### Add source files:
 
-### Add a testbench file:
+### Add source files (design, testbench, constraint) after project creation:
+![Add](Images/03TutorialAddTest.png)
 
 ### Run simulation:
+![Sim](Images/03TutorialRunSim.png)
+![Sim](Images/03TutorialSimUseful.png)
