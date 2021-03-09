@@ -156,3 +156,6 @@ end architecture Behavioral;
     end process p_stimulus;
  
  ```
+ 
+ ### Waveforms
+ ![Waves](Images/Wavu.png)
