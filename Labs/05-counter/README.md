@@ -2,6 +2,7 @@
 
 # Preparation:
 ## Push-button connections:
+![Button connections](Images/nexysButt.png)
 ## Clock period table:
 
    | **Time interval** | **Number of clk periods** | **Number of clk periods in hex** | **Number of clk periods in binary** |
