@@ -74,5 +74,10 @@ p_reset_gen : process
         wait;
     end process p_stimulus;
  ```
-    
+## Waveforms:
+### Entire waveform:
+![Zoom to fit](Images/cntWave1.png)
+
+### Zoomed in on count inversion:
+![Zoomed in](Images/cntWave2.png)
  
