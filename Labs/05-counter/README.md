@@ -164,4 +164,4 @@ begin
 end architecture Behavioral;
 ```
 ## 4-bit bidirectional and 16-bit counters in the same top layer:
-![Diagram](Images/DEPC5Final.png)
+![Diagram](Images/DEPC5Fin.png)
