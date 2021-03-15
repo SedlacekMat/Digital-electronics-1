@@ -80,8 +80,9 @@ p_reset_gen : process
 
 ### Zoomed in on count inversion:
 ![Zoomed in](Images/cntWave2.png)
- 
-# top.vhd:
+
+# Top level:
+## top.vhd:
 ```vhdl
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
@@ -162,3 +163,5 @@ begin
 
 end architecture Behavioral;
 ```
+## 4-bit bidirectional and 16-bit counters in the same top layer:
+![Diagram](Images/DEPC5Final.png)
