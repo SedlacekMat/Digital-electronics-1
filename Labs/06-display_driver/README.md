@@ -29,7 +29,7 @@ p_mux : process(s_cnt, data0_i, data1_i, data2_i, data3_i, dp_i)
         end case;
     end process p_mux;
 ```
-### :
+### tb_driver_7seg_4digits:
 ```vhdl
 library ieee;
 use ieee.std_logic_1164.all;
@@ -126,3 +126,5 @@ end architecture testbench;
 
 
 ```
+### Waveforms:
+![Waves](Images/Wavu.png)
