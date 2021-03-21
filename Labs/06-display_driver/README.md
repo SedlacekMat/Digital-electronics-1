@@ -182,3 +182,5 @@ driver_seg_4 : entity work.driver_7seg_4digits
 
 end architecture Behavioral;
 ```
+## 8 digit driver:
+![8dig](Images/DE1PC6.png)
