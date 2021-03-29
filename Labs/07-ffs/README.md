@@ -1,6 +1,11 @@
 # 07-ffs
 ## Preparation:
 
+![qD](Images/eqnD.png)
+![qJK](Images/eqnJK.png)
+![qT](Images/eqnT.png)
+
+
 | **clk** | **d** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-- |
    | ![rising](Images/eq_uparrow.png) | 0 | 0 | 0 |  |
