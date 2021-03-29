@@ -164,3 +164,6 @@
      ```
 ### Waveforms:
 ![Waves](Images/Wavu1.png)
+
+## Shift register:
+![block](Images/DE1PC7.png)
