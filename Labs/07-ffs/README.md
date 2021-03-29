@@ -2,7 +2,9 @@
 ## Preparation:
 
 ![qD](Images/eqnD.png)
+
 ![qJK](Images/eqnJK.png)
+
 ![qT](Images/eqnT.png)
 
 
