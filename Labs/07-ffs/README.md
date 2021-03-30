@@ -165,5 +165,81 @@
 ### Waveforms:
 ![Waves](Images/Wavu1.png)
 
+## Flip flops:
+### processes:
+#### p_d_ff_arst
+   ```vhdl
+       p_d_ff_arst : process (clk, arst)             
+    begin                                         
+        if (arst = '1') then                      
+            q  <=   '0';                         
+            q_bar <=   '1';
+                                    
+        elsif  rising_edge(clk) then                    
+            q  <=   d;                               
+            q_bar <=   not d;                       
+        end if;                                   
+    end process p_d_ff_arst; 
+   ```
+#### p_d_ff_rst
+   ```vhdl
+   p_d_ff_rst : process (clk)             
+    begin
+        if rising_edge(clk) then
+            if (rst = '1') then
+                q  <=   '0';
+                q_bar <=   '1';
+            else
+                q   <=   d;
+                q_bar <=   not d;
+            end if; 
+        end if;
+    end process p_d_ff_rst;
+   ```
+#### p_jk_ff_rst
+   ```vhdl
+   p_jk_ff_rst : process (clk)             
+    begin                                         
+      if rising_edge(clk) then 
+          if (rst = '1') then
+              s_q <= '0';
+          else
+                 if (j = '0' and k = '0') then
+                  s_q  <=  s_q;
+                  
+              elsif (j = '0' and k = '1') then
+                  s_q  <=  '0';
+                  
+              elsif (j = '1' and k = '0') then
+                  s_q  <=  '1';
+                  
+              elsif (j = '1' and k = '1') then                   
+                  s_q  <=  not s_q; 
+                   
+              end if; 
+            end if;                   
+        end if;                                   
+    end process p_jk_ff_rst;
+   ```
+#### p_t_ff_rst
+   ```vhdl
+   p_t_ff_rst : process (clk)
+    begin
+        if rising_edge(clk) then
+            if (rst = '1') then
+                s_q <=  '0';
+                s_q_bar <=  '1';
+            else
+                if (t = '0') then
+                    s_q <=   s_q;
+                    s_q_bar <=   s_q_bar;
+                else
+                    s_q  <=  not s_q;
+                    s_q_bar <=  not s_q_bar;
+                end if;    
+            end if;
+        end if;
+    end process p_t_ff_rst;
+   ```   
 ## Shift register:
 ![block](Images/DE1PC7.png)
