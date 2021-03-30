@@ -558,6 +558,15 @@
         report "Stimulus process finished" severity note;
         wait;
     end process p_stimulus; 
-   ```   
+   ```
+### Waveforms:
+#### d_ff_arst
+![d_ff_arst](Images/da.png)
+#### d_ff_rst
+![d_ff_rst](Images/dr.png)
+#### jk_ff_rst
+![jk_ff_rst](Images/jkr.png)
+#### t_ff_rst
+![t_ff_rst](Images/tr.png)
 ## Shift register:
 ![block](Images/DE1PC7.png)
