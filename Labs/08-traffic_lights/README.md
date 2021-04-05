@@ -143,7 +143,14 @@ p_output_fsm : process(s_state)
 
 ## Smart TLC
 ### State table
-![STLCtab](Images/STLCtab.png)
+| **Current state** | **Direction South** | **Direction West** | **Delay** |
+| :-- | :-: | :-: | :-: |
+| `STOP1`      | red    | red | 1 sec |
+| `WEST_GO`    | red    | green | 4 sec |
+| `WEST_WAIT`  | red    | yellow | 2 sec |
+| `STOP2`      | red    | red | 1 sec |
+| `SOUTH_GO`   | green  | red | 4 sec |
+| `SOUTH_WAIT` | yellow | red | 2 sec |
 ### State diagram
 ![STLCdia](Images/STLCdia.png)
 ### p_smart_traffic_fsm
@@ -181,8 +188,13 @@ p_smart_traffic_fsm : process(clk)
                         if (s_cnt < c_DELAY_4SEC) then
                             s_cnt <= s_cnt + 1;
                         else
-                            s_state <= WEST_WAIT;
-                            s_cnt   <= c_ZERO;
+                            if (sensors = "00" or sensors = "01") then
+                                s_state <= WEST_GO;
+                                s_cnt   <= c_ZERO;
+                            else
+                                s_state <= WEST_WAIT;
+                                s_cnt   <= c_ZERO;
+                            end if;
                         end if;
 
                     when WEST_WAIT =>
@@ -213,8 +225,13 @@ p_smart_traffic_fsm : process(clk)
                         if (s_cnt < c_DELAY_4SEC) then
                             s_cnt <= s_cnt + 1;
                         else
-                            s_state <= SOUTH_WAIT;
-                            s_cnt   <= c_ZERO;
+                            if (sensors = "10" or sensors = "00") then
+                                s_state <= SOUTH_GO;
+                                s_cnt   <= c_ZERO;
+                            else
+                                s_state <= SOUTH_WAIT;
+                                s_cnt   <= c_ZERO;
+                            end if;
                         end if;
                         
                     when SOUTH_WAIT =>
