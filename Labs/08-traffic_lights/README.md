@@ -19,7 +19,7 @@
 
 ## Traffic light controller: 
 ### State diagram
-![TLCdia](Images/TLCdia.png)
+![TLCdia](Images/TLCdia.jpg)
 ### p_traffic_fsm
 
 ```vhdl
@@ -152,7 +152,7 @@ p_output_fsm : process(s_state)
 | `SOUTH_GO`   | green  | red | 4 sec | `SOUTH_GO` | `SOUTH_WAIT` | `SOUTH_GO` | `SOUTH_WAIT` |
 | `SOUTH_WAIT` | yellow | red | 2 sec | `STOP1` | `STOP1` | `STOP1` | `STOP1` |
 ### State diagram
-![STLCdia](Images/STLCdia.png)
+![STLCdia](Images/STLCdia.jpg)
 ### p_smart_traffic_fsm
 ```vhdl
 p_smart_traffic_fsm : process(clk)
