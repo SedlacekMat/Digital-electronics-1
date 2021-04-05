@@ -143,14 +143,14 @@ p_output_fsm : process(s_state)
 
 ## Smart TLC
 ### State table
-| **Current state** | **Direction South** | **Direction West** | **Delay** |
-| :-- | :-: | :-: | :-: |
-| `STOP1`      | red    | red | 1 sec |
-| `WEST_GO`    | red    | green | 4 sec |
-| `WEST_WAIT`  | red    | yellow | 2 sec |
-| `STOP2`      | red    | red | 1 sec |
-| `SOUTH_GO`   | green  | red | 4 sec |
-| `SOUTH_WAIT` | yellow | red | 2 sec |
+| **Current state** | **Direction South** | **Direction West** | **Delay** | **00 - No cars** | **01 - West cars** | **10 - South cars** | **11 - Both** |
+| :-- | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| `STOP1`      | red    | red | 1 sec | `WEST_GO` | `WEST_GO` | `SOUTH_GO` | `WEST_GO` |
+| `WEST_GO`    | red    | green | 4 sec | `WEST_GO` | `WEST_GO` | `WEST_WAIT` | `WEST_WAIT` |
+| `WEST_WAIT`  | red    | yellow | 2 sec | `STOP2` | `STOP2` | `STOP2` | `STOP2` |
+| `STOP2`      | red    | red | 1 sec | `SOUTH_GO` | `WEST_GO` | `SOUTH_GO` | `SOUTH_GO` |
+| `SOUTH_GO`   | green  | red | 4 sec | `SOUTH_GO` | `SOUTH_WAIT` | `SOUTH_GO` | `SOUTH_WAIT` |
+| `SOUTH_WAIT` | yellow | red | 2 sec | `STOP1` | `STOP1` | `STOP1` | `STOP1` |
 ### State diagram
 ![STLCdia](Images/STLCdia.png)
 ### p_smart_traffic_fsm
